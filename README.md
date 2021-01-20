@@ -2,4 +2,4 @@
 
 Web Application developed for Hotel Management Project.
 
-Web Link : https://smart--city.herokuapp.com/
+Web Link : https://hotelsaketinn.herokuapp.com/
