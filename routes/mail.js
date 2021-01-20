@@ -4,8 +4,8 @@ const mailgun = require('nodemailer-mailgun-transport');
 
 const auth = {
     auth: {
-        api_key: 'c1d6a0770180f899b88dc98303c94952-d5e69b0b-33e325e3',
-        domain: 'sandboxe24a5aa03f6c4763a39b5cb6cf050178.mailgun.org'
+        api_key: ' ',
+        domain: ' '
     }
 };
 
@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport(mailgun(auth));
 const sendMail = (email, subject, text, number, cb) => {
     const mailOptions = {
         from: email,
-        to: 'mokshajain7176@gmail.com',
+        to: ' ',
         subject: subject + number,
         text: text
     };
